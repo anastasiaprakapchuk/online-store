@@ -1,0 +1,136 @@
+/* общие стили, в т.ч. для workmode по default */
+.Product{
+  width: 25%;
+  text-transform: none;
+}  
+
+.Product:hover{
+  cursor: pointer;
+}
+
+.Fon{
+  position: relative;
+  overflow:hidden;
+  width: 90%;
+  margin:10% auto 0% auto;
+}
+
+.ViewProd{
+  display: block;  
+  width: 100%;
+  transition-duration: 1s;
+}
+
+.ViewProdScale{   
+  transform: scale(2); 
+}
+
+.OptionsProd{
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  position: absolute;
+  background-color: white;
+  border-radius: 5%;
+  opacity:0;
+  transition-duration: 1s;
+  padding: 5% 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.OptionsProdAppear{
+  opacity:1;
+  transition-duration: 1s;
+}
+
+.icons:hover{
+  color:green;
+}
+
+.Product p{
+  width: 90%;
+  margin:0.5em auto;
+  text-align: center;
+}
+
+.PriceProd{
+  color:green;
+}
+
+/* стили для workmode === 'viewList' */
+
+.ProductList{
+  display: flex;
+  border-top: 1px solid grey;
+  width: 100%;
+  text-transform: none;
+  padding: 20px 0px;
+}
+
+.ProductList:hover{
+  cursor: pointer;
+}
+
+.FonList{
+  position: relative;
+  overflow:hidden;
+  width: 20%;
+}
+
+.descriptionList{
+  width: 60%;
+}
+
+.DescriptionProdList{
+  font-weight: normal;
+}
+
+.ViewProdList{
+  display: block;  
+  width: 100%;
+  transition-duration: 1s;
+  margin-right: 20px;
+  flex-grow:0; 
+  flex-shrink:0;
+}
+
+.ViewProdScaleList{   
+  transform: scale(2); 
+}
+
+.NameProdList{
+  font-size: 1.5em;
+}
+
+.OptionsProdList{
+  align-self: center;
+  display: flex;
+  align-content: center;
+  flex-flow: column wrap;
+  width: 20%;
+}
+
+.OptionsProdList div{
+  padding-bottom: 20px;
+
+}
+
+
+
+
+
+.icons:hover{
+  color:green;
+}
+
+.ProductList p{
+  width: 90%;
+  margin:0.5em auto;
+  
+}
+
+.PriceProdList{
+  color:green;
+}

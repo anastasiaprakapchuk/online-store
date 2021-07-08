@@ -1,0 +1,31 @@
+@media(max-width:1300px){
+  .flexList .Product{ 
+    width: 33%;
+}
+}
+
+@media(max-width:1100px){
+  .flexList .Product{ 
+    width: 50%;
+}
+}
+
+@media(max-width:900px){
+  .Container{ 
+    width: 90%;
+}
+}
+
+@media(max-width:700px){
+  .flexList .Product{ 
+    width: 100%;
+}
+}
+
+
+
+
+
+
+
+  

@@ -1,0 +1,11 @@
+
+
+.OrderOne td{
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.OrderOne .Price span{
+  font-weight: normal;
+  text-transform: none;
+}

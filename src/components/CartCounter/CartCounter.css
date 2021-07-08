@@ -1,0 +1,13 @@
+.CartCounter{
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  font-weight: normal;
+  position:absolute;
+  top: -5px;
+  right: -5px;
+  border-radius: 50% 50%;
+}

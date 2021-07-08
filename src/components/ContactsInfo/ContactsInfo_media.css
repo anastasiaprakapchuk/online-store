@@ -1,0 +1,25 @@
+@media(max-width:670px){
+  .ContactInfo{
+    display: flex;
+    flex-direction:column;
+  }
+
+  .ContactInfoMap{
+    width: 100%;
+    order: 1;
+  }
+  
+  .ContactInfoContacts{
+    width: 100%;
+    order: 0;
+  }
+
+  .phonesContactInfo, 
+.adressContactInfo, 
+.emailContactInfo {
+    
+    margin: 20px 0px;
+    padding: 20px 0px;
+   
+}
+}

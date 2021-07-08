@@ -1,0 +1,81 @@
+.AdminCardProd{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  padding: 30px 30px;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 0.8em;
+  width: 80%;
+}
+
+.AdminCardName{
+  font-size: 1.5em;
+}
+
+.CardProductAppear{
+  width: 100vw;
+  height: 100vh;
+  background-color: #08080880;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.AdminCardFlex{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.AdminCardFlexImg{
+  width: 45%;
+ 
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+.AdminCardProd img{
+  width: 100%;
+}
+
+.AdminCardProd table{
+  width: 55%;
+  border-spacing:0px 10px;
+}
+
+.AdminCardProd table input,textarea,select{
+  width: 100%;
+}
+
+.AdminCardProd input[type='radio']{
+  width: auto;
+}
+
+.AdminCardProd td{
+  vertical-align: top;
+  text-align: left;
+}
+
+.AdminCardProd .appearSaleprice{
+  display: table-row;
+}
+
+.AdminCardProd .hideSaleprice{
+  display: none;  
+}
+
+.AdminCardProd .InputButtons{
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.InputButtonSave,
+.InputButtonCancel{
+  margin: 0px 20px;
+  padding: 10px 10px;
+  width: 120px;
+  font-size: 1em;
+}

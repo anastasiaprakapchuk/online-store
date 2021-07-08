@@ -1,0 +1,121 @@
+
+.Header
+{
+   width:100%;
+   background-color:#eef0ee;
+}
+
+.Header .row
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 80px;
+   transition: 1s padding ease-in;
+}
+
+.headerFixed .row
+{
+   padding: 5px 80px;
+   transition: 0.5s padding ease-in;
+}
+
+.Header .headerExtra  
+{ 
+    list-style-type:none;
+    padding: 0px 0px;
+    padding-inline-start: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}    
+
+.Header .selectIcon   
+{ 
+    display: inline;
+    margin-right: 5px;
+    padding: 10px 12.5px;
+    border:2px solid transparent;
+    border-radius: 50%;
+    position: relative;
+    color: black;
+}
+
+.Header .headerExtra :last-child   
+{ 
+    margin-right: 0px;
+}
+
+.Header .selectIcon:hover{    
+    cursor:pointer;
+    border-color: #006633;
+}
+
+.Header img   
+{    
+    height: 100px;
+    transition: 0.5s height ease-in;
+}
+
+.headerFixed img   
+{    
+    height: 60px;
+    transition: 1s height ease-in;
+}
+
+.Header .Navigator{
+   display: flex;  
+}
+
+.Header .NavigatorBar{
+    display: none;
+}
+
+.Header .MenuNavigator{
+    text-decoration:none;
+    color:#006633;
+    margin-right: 40px;
+}
+
+.Header .Navigator :last-child{  
+    margin-right: 0px;
+}
+
+.Header .rectangle{
+    height: 1px;
+    width: 100px;
+    background-color: #006633;
+    opacity: 0.5;
+}
+
+.Header .MenuCloseHide{
+    display: flex;
+    justify-content:flex-start;
+    opacity: 0;
+    transition-duration: 1s;
+    position: absolute;
+}
+
+.Header .MenuCloseHide :first-child{
+    padding:20px 0px;
+}
+
+.headerFixed
+{
+   position: fixed;
+   z-index: 100;   
+}
+
+.Header .AppearSearch{
+    display: block;
+    position: absolute;
+    border: 1px solid grey;
+}
+
+.Header .AppearSearch input{
+    display: inline;
+    border: none;
+}
+
+.Header .HideSearch{
+    display: none;
+}

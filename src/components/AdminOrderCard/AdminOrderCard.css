@@ -1,0 +1,86 @@
+
+@media screen{
+.OrderCard{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 600px;
+  background-color: white;
+  border: 3px solid black;
+  text-align: center;
+}
+
+.OrderCard td{
+  padding: 20px 20px;
+  text-align: start;
+  font-size: 0.8em;
+}
+
+.OrderCard .NameOrderCard{
+  text-align: center;
+}
+
+.OrderCard .HelpName{
+  font-weight: normal;
+}
+
+.OrderCard input[type='button']{
+  display: inline;
+  margin: 20px 20px;
+  padding: 10px 10px;
+  width: 100px;
+}
+
+.SignLine{
+  display: none;
+}
+}
+
+@media print{
+  .OrderCard{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98%;
+    background-color: white;
+    border: 3px solid black;
+  }
+  
+  .OrderCard td{
+    padding: 10px 10px;
+    text-align: start;
+    font-size: 0.8em;
+  }
+  
+  .OrderCard .NameOrderCard{
+    text-align: center;
+  }
+  
+  .OrderCard .HelpName{
+    font-weight: normal;
+  }
+  
+  .OrderCard input[type='button']{
+    display: none;
+  }
+
+  .SignLine{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 20px;
+    font-weight: normal;
+  }
+
+  .lineForSign{
+    display: inline-block;
+    width: 100px;
+    border-bottom: 1px solid black;
+  }
+
+}
+
+@page{
+  margin: 1cm; /* Отступы для страницы */ 
+ }

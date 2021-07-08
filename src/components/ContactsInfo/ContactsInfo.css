@@ -1,0 +1,47 @@
+.ContactInfoWithName h3{
+  margin:0px 0px;
+  padding:40px 0px;
+  text-align: center;
+  color: green;
+}
+
+.ContactInfo{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.ContactInfoMap{
+  width: 60%;
+}
+
+.ContactInfoContacts{
+  width: 40%;
+}
+
+.ContactInfoMap iframe{
+  width: 100%;
+  height: 500px;
+}
+
+
+.phonesContactInfo, 
+.adressContactInfo, 
+.emailContactInfo {
+    width: 100%;
+    text-align: center;
+    margin: 20px 20px;
+    padding: 20px 20px;
+   
+    color:black;
+}
+
+.phonesContactInfo .contacts, 
+.adressContactInfo .contacts, 
+.emailContactInfo .contacts{
+    
+    padding: 10px 0px;
+    
+}

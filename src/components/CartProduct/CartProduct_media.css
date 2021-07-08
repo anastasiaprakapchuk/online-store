@@ -1,0 +1,18 @@
+@media(max-width:760px){
+  .CartProduct .CartProductItemPrice{
+    display: none;
+  }
+  
+}
+
+@media(max-width:570px){
+  .CartProduct{
+    position: relative;
+  }
+
+  .CartProduct .CartProductItemName{
+    display: none;
+
+  }
+  
+}

@@ -1,0 +1,56 @@
+@media (max-width: 1200px){
+  .ProductList{
+    display: flex;
+    border-top: 1px solid grey;
+    width: 100%;
+    text-transform: none;
+    padding: 20px 0px;
+  }
+
+  .FonList{
+    position: relative;
+    overflow:hidden;
+    width: 40%;
+  }
+  
+  .descriptionList{
+    width: 50%;
+  }
+
+  .OptionsProdList{
+    
+    width: 10%;
+  }
+} 
+
+@media (max-width: 720px){
+  .ProductList{
+    display: block;
+    border-top: 1px solid grey;
+    width: 100%;
+    text-transform: none;
+    padding: 20px 0px;
+  }
+
+  .FonList{
+    position: relative;
+    overflow:hidden;
+    width: 100%;
+  }
+  
+  .descriptionList{
+    width: 100%;
+  }
+
+  .OptionsProdList{
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-flow: nowrap;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+}
+/* стили для workmode === 'viewList' */

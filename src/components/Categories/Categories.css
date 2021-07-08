@@ -1,0 +1,36 @@
+
+
+.sidebarName{
+  font-weight: bold;
+  margin: 0px 0px;
+  padding-bottom:20px ;
+}
+
+.sidebarCategory{
+  text-decoration: none;
+  font-weight: normal;
+  color: black;
+}
+
+.sidebarCategories{
+  border-top: 2px solid green;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding:0px 10px;
+}
+
+.sidebarCategory:hover{
+  color:green;
+  font-weight: bold;
+}
+
+.sidebarCategory:focus{
+  color:green;
+  font-weight: bold;
+}
+
+.sidebarNameIcon{
+  display: none;
+}
+

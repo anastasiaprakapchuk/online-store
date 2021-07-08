@@ -1,0 +1,52 @@
+.HeaderAdmin{
+    padding:30px 0px;
+    background-color: #5c9165;
+}
+
+.AdminNavigator{
+    display: flex;
+    justify-content: center;
+}
+
+.AdminMenuNameExit{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    color:#c1e3c7;
+    cursor: pointer;
+    border-bottom: 1px solid #c1e3c7;
+}
+
+.AdminMenuNameExit:hover{
+   
+    color:#c1e3c7;
+    cursor: pointer;
+    border-bottom: 1px solid#5c9165;
+}
+
+.AdminMenuNavigator{
+    text-decoration: none;
+    color:#c1e3c7;
+    width: 110px;
+    margin: 0px 20px;
+    padding: 15px 15px;
+    text-align: center;
+    border: 1px solid#c1e3c7;
+}
+
+.AdminMenuNavigator:hover{    
+    color:#5c9165;
+    background-color: #c1e3c7;
+    border: 1px solid #5c9165;
+}
+
+.SActivatedAdmin{
+    color:#5c9165;
+    background-color: #c1e3c7;
+    border: 1px solid #5c9165; 
+}
+
+.AdminMenuCloseHide{
+    display: none;
+}

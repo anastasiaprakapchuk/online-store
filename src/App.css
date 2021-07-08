@@ -1,0 +1,25 @@
+.App {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content{
+  flex: 1 0 auto;
+}
+
+.Container
+{
+   width: 75%;
+   margin:0 auto;
+   padding: 40px 0px;
+}
+
+
+

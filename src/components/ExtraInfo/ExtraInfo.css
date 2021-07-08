@@ -1,0 +1,29 @@
+.ExtraInfoWithName h3{
+  margin:0px 0px;
+  padding:40px 0px;
+  text-align: center;
+  color: green;
+}
+
+.ExtraInfoText{
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.ExtraInfoTextPart{
+  width: 100%;
+}
+
+.ExtraInfoTextPart{
+  width: 100%;
+}
+
+.ExtraInfoTextPart p{
+ font-weight: normal;
+}
+
+.ExtraInfoTextPart h3{
+  text-align: start;
+  color: black;
+ }

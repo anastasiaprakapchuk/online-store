@@ -1,0 +1,38 @@
+@media screen{
+.OrdersList
+{
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.CardOrderAppear{
+  width: 100vw;
+  height: 100vh;
+  background-color: #08080880;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.NameOrdersList{
+  text-align: center;
+}
+
+.HeadOrders td{
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.OrdersList table{
+  margin: 0 auto;
+}
+}
+
+@media print{
+  .TopOrderList{
+    display: none;
+  }
+}
+
+

@@ -1,0 +1,75 @@
+.numberOrder{
+  color: green;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.successOrder{
+  margin: 0 auto;
+ display: flex;
+ width: 80%;
+ align-items: center;
+}
+
+.successOrderInfo{
+  text-align: center;
+  padding: 20px 20px;
+  background-color:white;
+  width: 50%;
+  
+}
+
+.successOrderView{
+  
+  width: 50%;
+}
+
+.successOrderView img{
+  
+  width: 100%;
+}
+
+.successOrder p{
+  text-transform: none;
+  font-weight: normal;
+}
+
+
+
+.successcheckout{
+  height: 30px; 
+  background-color:green;
+  cursor: pointer;
+  border-color: green;
+  border-style:solid;
+  border-width: 1px;
+  color:white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0em 1em;  
+  outline:none;
+  
+}
+
+.successcheckout:hover{ 
+ background-color:black;
+ border-color: black;
+}
+
+.successcheckout:active{ 
+ height: 28px;
+ border-color: grey;
+}
+
+/* .successOrderFon{
+  width: 100%;
+  height: 100%;
+  background-color: #dff3e6;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  position: absolute;
+  top: 0px;
+} */
+

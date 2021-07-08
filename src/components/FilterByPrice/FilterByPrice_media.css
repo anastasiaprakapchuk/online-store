@@ -1,0 +1,34 @@
+@media(max-width:550px){
+  .filterNameIcon{
+    display: inline; 
+  }
+
+  .filterName span{
+    padding-left: 10px;
+  }
+
+  .filterName{
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .filter .range{
+    display: none;
+  }
+
+  .filter {
+    height: 0;
+    overflow: hidden;
+    padding: 0px 0px;
+  }
+
+  .appearFilter .range{
+    display: block;
+  }
+
+  .appearFilter{
+    height: auto;
+    padding:40px 5px;
+  }
+  
+}

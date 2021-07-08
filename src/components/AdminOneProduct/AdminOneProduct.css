@@ -1,0 +1,71 @@
+.ProductOne{
+  position: relative;
+}
+
+.ProductOne td{
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 0.8em;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.527);
+}
+
+.ProductOne .Price span{
+  font-weight: normal;
+  text-transform: none;
+}
+
+.ProductOne .View{
+  width: 120px;
+}
+
+.ProductOne img{
+  width: 100%;
+}
+
+.ProductOne .ExtraContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProductOne .ExtraContainer:last-child{
+  margin-right: 0px;
+}
+
+.ProductOne .ExtraIcon{
+  padding: 10px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+
+}
+
+.ProductOne .ExtraIconOn{
+  padding: 10px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: rgb(248, 224, 4);
+}
+
+.ProductOne .HideSalePriceInput{
+  display: none;
+}
+
+.ProductOne .AppearSalePriceInput{
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.ProductOne .ErrAdminOneProduct{
+  color:red;
+  font-size: 1em;
+  text-transform: none;
+  
+}
+
+.ProductOne input{
+  width: 100%;
+}
+
+.ProductOne .AppearSalePriceInput button{
+  margin-top: 5px;
+}

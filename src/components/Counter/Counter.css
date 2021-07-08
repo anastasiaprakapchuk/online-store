@@ -1,0 +1,36 @@
+
+.Counter{  
+  margin:0 auto;
+}
+
+.Counter .Count{
+  width: 3em;
+  border-color: grey;
+  border-style:solid;
+  border-width: 1px;
+  border-left: none;
+  border-right: none;
+  height: 28px;
+  padding: 0px 0px;
+  -moz-appearance: textfield;
+  outline:none;
+  text-align: center; 
+}
+
+.Count::-webkit-inner-spin-button { 
+  display: none;
+}
+
+.CountDec,
+.CountInc{
+   height: 30px;
+   width: 30px;
+   padding: 0px 0px;
+   background-color: white;
+   cursor: pointer;
+   border-color: grey;
+   border-style:solid;
+   border-width: 1px;
+   outline:none;
+}
+

@@ -1,0 +1,73 @@
+
+.Footer
+{
+   width:100%;
+   background-color:#bcbbbd29;
+   clear: left;
+   position: relative;
+   flex: 0 1 auto;
+}
+
+.Footer .logoFooter{
+    padding-top: 20px;
+}
+
+.Footer img   
+{    
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+}
+
+.Footer .NavigatorFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 80px; 
+    font-size: 0.8em;
+    letter-spacing: 0.2em; 
+}
+
+.Footer .menuFooter{
+    padding-top: 20px;
+}
+
+.Footer .MenuNavigator{
+    text-decoration:none;
+    color:#006633;
+    margin-right: 40px;
+}
+
+.Footer .NavigatorFooter :last-child{  
+    margin-right: 0px;
+}
+
+.Footer .ContactsFooter{
+    display: flex;
+    justify-content: center;
+    background-color:#087744;
+ }
+
+ .Footer .phones,
+ .Footer .adress,
+ .Footer .email{
+   width: 20%;
+   text-align: center;
+   margin: 20px 20px;
+   padding: 20px 20px;
+   /* background-color: green; */
+   color: white;
+}
+
+.Footer .icon{ 
+   padding-bottom: 20px;
+}
+
+.Footer .copyright{
+    background-color: white;
+    text-transform: none;
+    text-align: center;
+    font-weight:normal;
+    line-height: 4em;
+    font-size: 0.8em;
+}

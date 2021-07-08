@@ -1,0 +1,25 @@
+@media(max-width:760px){
+    .successOrder{
+        margin: 0 auto;
+       display: flex;
+       width: 90%;
+       align-items: center;
+       flex-direction: column;
+      }
+      
+      .successOrderInfo{
+       
+        width: 100%;
+        
+      }
+      
+      .successOrderView{
+        
+        width: 100%;
+      }
+      
+      .successOrderView img{
+        
+        width: 100%;
+      }
+}

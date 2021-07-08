@@ -1,0 +1,81 @@
+@media (max-width: 1200px){
+  .CardProd{
+    width: 95%;
+  }
+}
+
+@media (max-width: 860px){
+  .CardProd{
+    font-size: 0.8em;
+  }
+
+  /* .Counter{
+    flex-flow: row wrap;
+  } */
+
+  .AddCart{
+    flex-grow:0;
+    flex-shrink: 0;  
+  }
+}
+
+@media (max-width: 730px){
+  .CardProd{
+    font-size: 1em;
+    width: 80%;
+    display: block;
+  }
+
+  .CardProdImg{    
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .CardProdInfo{
+    width: 100%;
+    padding-left:0px;
+    padding-top: 30px;
+    margin: 0 auto;
+  }
+  
+  .CardProdInfoTable{
+    display: block;
+  }
+
+}
+
+  @media (max-width: 406px){
+    .CardProdInfoPrice{
+      font-size: 1.2em;      
+      padding-top:10px;
+    }
+
+    .CardProdInfoName{
+      font-size: 1.2em;
+    }
+
+    .CardProdInfoDescription{      
+      padding-top:10px;
+    }
+    
+    .CardProdInfoCount{
+      padding-top:10px;
+    }
+    
+    .CardProdInfoAddCart{
+      padding-top:10px;
+    }
+    
+    /* .Counter{     
+      padding-top:10px; 
+    } */
+    
+    .AddCart{
+      margin-top: 10px;
+    }
+
+    .CardProdInfoAddFavorit{
+      padding-top:10px;
+    }
+
+  } 

@@ -1,0 +1,91 @@
+
+.sectionName{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.sectionNameParts{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sectionNameParts div{
+    display: inline-block;
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color:green;
+    margin: 0px 10px;
+    color:white;
+}
+
+.sectionNameParts div:hover{    
+    background-color:black;    
+}
+
+.indicator{
+    height: 20px;
+    width:3px;
+    background-color: green;
+    margin: 0 auto;
+}
+.sectionReference .Slider{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.sectionReference .Product{
+    width: 100%;   
+}
+
+.sectionReference .arrowRightHidden{
+    position: absolute;
+    right:-15%;
+    top:50%;
+    transform: translateY(-50%); 
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.sectionReference .arrowLeftHidden{
+    position: absolute;
+    left:-15%;
+    top:50%;
+    transform: translateY(-50%); 
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.sectionReference .arrowLeft{
+    position: absolute;
+    left:-8%;   
+    top: 50%;
+    transform: translateY(-50%);     
+    opacity: .75;
+    transition-duration: 1s;   
+}
+
+.sectionReference .arrowRight{
+    position: absolute;
+    right: -8%;   
+    top: 50%;
+    transform: translateY(-50%);     
+    opacity: .75;
+    transition-duration: 1s;   
+}
+
+.sectionReference .arrow{
+    padding: 14px 19.5px;
+    border-radius: 50%;
+    background-color: #097b48;
+    display: inline;
+    z-index: 5;
+}
+
+.sectionReference .arrow:hover{
+    cursor: pointer;
+}
+
+

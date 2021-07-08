@@ -1,0 +1,98 @@
+.checkout,
+.continueShopping{
+  height: 30px; 
+  background-color:green;
+  cursor: pointer;
+  border-color: green;
+  border-style:solid;
+  border-width: 1px;
+  color:white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0em 1em;  
+  outline:none;
+  margin:30px 30px 60px 30px;
+}
+
+.checkout:hover{ 
+ background-color:black;
+ border-color: black;
+}
+
+.checkout:active{ 
+ height: 28px;
+ border-color: grey;
+}
+
+.continueShopping:hover{ 
+  background-color:black;
+  border-color: black;
+ }
+ 
+ .continueShopping:active{ 
+  height: 28px;
+  border-color: grey;
+ }
+
+ .listProdinCartShop{
+   width: 80%;
+   margin: 0 auto;
+ }
+
+ .headCartShop{
+  display: table-row;
+  height: 80px;
+ }
+
+ .headItem{
+  display: table-cell;
+  width: 15%;
+  vertical-align: middle;
+  text-align: center;
+ }
+
+ .totalAmount{
+   display: table-row;
+ }
+
+ .totalAmountItem{
+  display: table-cell;
+  width: 15%;
+  vertical-align: middle;
+  text-align: center;
+  border-top:1px solid grey;
+  height: 70px;
+}
+
+.totalAmount .Price{
+  font-size: 20px;
+  color: green;
+}
+
+.Cart{
+  text-align: center;
+}
+
+.formIsHidden{
+  height: 0px;
+  -webkit-transition-duration: 1s; /* для Android */
+  transition-duration: 1s;
+  -webkit-transition-timing-function: linear; /* для Android */
+  transition-timing-function: linear;
+  overflow: hidden;
+}
+
+.CartAndForm{
+  opacity: 1;
+}
+
+.CartAndFormOpacity{
+  opacity: 0.2;
+}
+
+.CartAndForm h3{
+  color: green;
+  text-align: center;
+  margin: 0px 0px;
+  padding: 40px 0px;
+}

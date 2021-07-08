@@ -1,0 +1,17 @@
+@media(max-width:1000px){
+    .Order{
+        display: block;
+        
+    }
+
+    .InfoPerson{
+        width: 100%;
+        padding:10px 20px;
+    }
+    
+    .InfoDelivery{
+        width: 100%;
+        background-color: #f0f5f0;
+        padding:10px 20px;
+    }
+}

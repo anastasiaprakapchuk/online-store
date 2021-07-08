@@ -1,0 +1,84 @@
+.CartProduct{
+  display: table-row;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+
+@keyframes hide {
+  to {
+    font-size: 0;
+    padding: 0;
+  }
+}
+
+@keyframes opacity {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes hideimg {
+  to {
+    width: 0;
+    padding: 0;
+  }
+}
+
+@keyframes hidecount {
+  to {
+    height: 0;
+    border-width: 0;
+    font-size: 0;
+    
+  }
+}
+
+.hidden .CartProductItem {
+  animation: hide 1s 1s forwards, opacity 0.9s 0.9s forwards;
+  
+}
+
+
+.CartProduct .CartProductItem{
+  display: table-cell;
+  width: 15%;
+  vertical-align: middle;
+  text-align: center;
+  border-top: 1px solid grey;
+  opacity: 1;
+}
+
+.CartProduct .Price{
+  font-size: 20px;
+}
+
+.CartProductItem img{ 
+  width: 100px;
+  padding: 10px 0px;
+}
+
+.hidden .CartProductItem img{
+  animation: hideimg 1s 1s forwards;
+}
+
+.hidden .Counter .Count{
+  animation: hidecount 1s 1s forwards;
+ 
+}
+
+.hidden .Counter .CountDec,
+.hidden .Counter .CountInc{
+  animation: hidecount 1s 1s forwards;
+  
+}
+
+.DeleteProductItem{
+  display: inline;
+  cursor: pointer;
+
+}
+
+.DeleteProductItem :hover{
+  color: red;  
+}

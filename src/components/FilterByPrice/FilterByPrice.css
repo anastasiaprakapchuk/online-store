@@ -1,0 +1,106 @@
+
+.filterName{
+  font-weight: bold;
+  margin: 0px 0px;
+  padding:20px 0px;
+  
+}
+
+
+.filter{
+  border-top: 2px solid green;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding:40px 5px;
+  text-transform: none;
+}
+
+.range{
+  position: relative;
+  height: 5px;
+  width: 100%;
+  /* background-color: green; */
+}
+
+.indicatorOne{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  /* transform: rotate(45deg); */
+  top:-4px;
+  z-index: 2;
+}
+
+.indicatorOne:hover{ 
+  background-color:black;
+ }
+
+
+.indicatorTwo{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  /* transform: rotate(45deg); */
+  top:-4px;
+  
+}
+
+.indicatorTwo:hover{ 
+  background-color:black;
+ }
+
+ .FilterPrice{
+    text-align: center;
+    margin-top: 40px;
+ }
+
+.FilterButton{
+  height: 30px; 
+  background-color:green;
+  cursor: pointer;
+  border-color: green;
+  border-style:solid;
+  border-width: 1px;
+  color:white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0em 1em;  
+  outline:none;
+  display: block;
+  margin: 40px auto;
+  margin-bottom: 0px;
+}
+
+.FilterButton:hover{ 
+ background-color:black;
+ border-color: black;
+}
+
+.FilterButton:active{ 
+ height: 28px;
+ border-color: #d3edd3;
+}
+
+
+.fon{
+  position: absolute;
+  display: inline;
+  height: 5px;
+  background-color:#d3edd3;
+}
+
+.midleFon{
+  width: 100%;
+  background-color: green;
+}
+
+.rightFon{
+  right: 0;
+}
+
+.filterNameIcon{
+  display: none;
+}

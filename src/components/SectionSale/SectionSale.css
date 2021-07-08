@@ -1,0 +1,72 @@
+.sectionSale .Slider{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sectionSale .Product{
+    width: 100%;   
+}
+
+.sectionSale .arrowRightHidden{
+    position: absolute;
+    right:-15%;
+    top:50%;
+    transform: translateY(-50%); 
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.sectionSale .arrowLeftHidden{
+    position: absolute;
+    left:-15%;
+    top:50%;
+    transform: translateY(-50%); 
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.sectionSale .arrowLeft{
+    position: absolute;
+    left:-8%;   
+    top: 50%;
+    transform: translateY(-50%);     
+    opacity: .75;
+    transition-duration: 1s;   
+}
+
+.sectionSale .arrowRight{
+    position: absolute;
+    right: -8%;   
+    top: 50%;
+    transform: translateY(-50%);     
+    opacity: .75;
+    transition-duration: 1s;   
+}
+
+.sectionSale .arrow{
+    padding: 14px 19.5px;
+    border-radius: 50%;
+    background-color: #097b48;
+    display: inline;
+    z-index: 5;
+}
+
+.sectionSale .arrow:hover{
+    cursor: pointer;
+}
+
+.sectionSale .slick-dots li button:before {   
+    font-size: 10px;   
+    opacity: .75;
+    color: white;
+}
+
+.sectionSale .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+}
+
+.sectionSale .slick-dots {   
+    bottom: 20px;
+}
+

@@ -1,0 +1,138 @@
+@media (max-width: 1200px){
+    .Footer .rectangle
+    {
+        display: none;
+    }
+
+    .Footer .row
+    {
+        padding: 20px 40px;
+    }
+} 
+
+@media (max-width: 950px){
+
+    .Footer .row
+    {
+        display: block;
+    }
+
+    .Footer img   
+    {    
+        display: block;
+        margin: 0 auto;
+        height: 70px;
+    }
+
+    .Footer .Navigator
+     {       
+        display: flex;
+        flex-direction:column;
+        position: absolute;
+        top:0px;
+        left: -100%;
+        padding:0px 0px;
+        height: 100%;
+        background-color:white ;
+        opacity: 0;
+        transition-duration: 3s;        
+     }
+
+   
+     .Footer.MenuNavigator
+     { 
+        margin-right: 0px;
+        padding-bottom: 20px;
+     }
+
+     .Footer .flexWith
+     {
+        margin-top:20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
+     
+     .Footer .NavigatorBar
+     {
+        display: inline;
+     }
+    
+     .Footer .headerExtra  
+    { 
+        display: inline;
+    }
+    
+    .Footer .phones,
+    .Footer .adress,
+    .Footer .email{
+        width: 20%;
+        text-align: center;
+        margin: 20px 20px;
+        padding: 20px 20px;
+        /* background-color: green; */
+        color: white;
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 750px){
+
+    .Footer .NavigatorFooter{
+        display: flex;
+        flex-direction:column;
+        padding: 0px 0px;       
+    }
+
+    .Footer .MenuNavigator{   
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .Footer .ContactsFooter{
+        display: flex;
+        flex-wrap: wrap;
+        align-content:center;
+        width: 80%;
+        margin: auto;
+        margin-bottom:20px;
+     }
+
+     .Footer .phones,
+    .Footer .adress,
+    .Footer .email{
+        width: 40%;
+        text-align: center;
+        margin: 0px 0px;
+        padding: 20px 20px;
+        background-color:transparent;
+        /* color: green; */
+        font-size: 0.8em;  
+    }
+
+   .ContactsFooter{
+       background-color: white;
+   }
+
+}
+
+@media (max-width: 480px){
+
+
+     .Footer .phones,
+    .Footer .adress,
+    .Footer .email{
+        width: 100%;
+ 
+    }
+
+
+} 
+
+
+
+
+
+
+
+

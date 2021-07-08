@@ -1,0 +1,104 @@
+.CardProd{
+  display: flex;
+  margin: 0 auto;
+  width: 75%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.CardProdImg{
+  display: block;
+  width: 50%;
+  flex-grow:0;
+  flex-shrink: 0;
+}
+
+.ImgCard{
+  display: block;
+  width: 100%;
+}
+
+.CardProdInfo{
+  display: table-cell;
+  padding-left:20px;
+}
+
+.CardProdInfoTable{
+  display: table;
+}
+
+.CardProdInfoName{
+  font-size: 1.5em;
+}
+
+.CardProdInfoPrice{
+  font-size: 1.5em;
+  color: green;
+  padding-top:20px;
+}
+
+.CardProdInfoPriceDelete{
+  font-size: 1.2em;
+  color:grey;
+  padding-top:20px;
+  text-decoration:line-through;
+  font-weight: normal;
+}
+
+.CardProdInfoDescription{
+  text-transform: none;
+  font-weight: normal;
+  padding-top:20px;
+}
+
+.CardProdInfoCount{
+  padding-top:20px;
+}
+
+.CardProdInfoAddCart{
+  padding-top:20px;
+}
+
+.AddCart{
+   height: 30px; 
+   background-color:green;
+   cursor: pointer;
+   border-color: green;
+   border-style:solid;
+   border-width: 1px;
+   color:white;
+   text-transform: uppercase;
+   font-weight: bold;
+   padding: 0em 1em;  
+   outline:none;
+   margin-top: 20px;
+}
+
+.AddCart:hover{ 
+  background-color:black;
+  border-color: black;
+}
+
+.AddCart:active{ 
+  height: 28px;
+  border-color: grey;
+}
+
+.CardProdInfoAddFavorit{
+  text-transform: none;
+  font-weight: normal;
+  padding-top:20px;
+}
+
+.CardProdInfoAddFavorit:hover{
+  cursor:pointer;
+  color:green;
+}
+
+.CardProdInfoAddFavorit span{
+  margin-left:0.5em;
+}
+
+.ChoiseCount{
+  padding-bottom:10px;
+}
