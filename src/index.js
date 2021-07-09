@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter} from 'react-router-dom';
+import {HashRouter} from 'react-router-dom';
 import { Beforeunload } from 'react-beforeunload';
 import {Provider} from 'react-redux';
 import './index.css';
@@ -19,13 +19,13 @@ addStringDataForServer();//загружаем первоначальные да�
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
     <Beforeunload onBeforeunload={( ) => " Вы потеряете свои данные! "}>
      <Provider store={store}>
       <App />
      </Provider> 
     </Beforeunload> 
-    </BrowserRouter>  
+    </HashRouter>  
   </React.StrictMode>,
   document.getElementById('root')
 );
