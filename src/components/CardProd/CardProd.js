@@ -57,7 +57,7 @@ class CardProd extends React.PureComponent{
         <div className='CardProd'>
 
           <div className='CardProdImg'>
-             <img className='ImgCard' src={'../'+this.props.info.view} alt={'изображение не доступно'}/>   
+             <img className='ImgCard' src={this.props.info.view} alt={'изображение не доступно'}/>   
           </div>
 
           <div className='CardProdInfo'>
