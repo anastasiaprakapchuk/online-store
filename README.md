@@ -1,4 +1,5 @@
 # Course project 'Online store 'FLOWER''
+Link to a working project https://anastasiaprakapchuk.github.io/online-store/#/
 
 This project was bootstrapped with [Create React App]
 
